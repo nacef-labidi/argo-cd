@@ -12,7 +12,7 @@ DL=$DOWNLOADS/kustomize-${KUSTOMIZE_VERSION}
 # v3.3.0 = https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v3.3.0/kustomize_v3.3.0_linux_amd64.tar.gz
 case $KUSTOMIZE_VERSION in
   2.*)
-    URL=https://github.com/kubernetes-sigs/kustomize/releases/download/v${KUSTOMIZE_VERSION}/kustomize_${KUSTOMIZE_VERSION}_linux_amd64
+    URL=http://172.17.0.1:8000/kustomize
     ;;
   *)
     URL=https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v${KUSTOMIZE_VERSION}/kustomize_kustomize.v${KUSTOMIZE_VERSION}_linux_amd64
