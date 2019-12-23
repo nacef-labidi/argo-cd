@@ -15,7 +15,7 @@ case $KUSTOMIZE_VERSION in
     URL=http://172.17.0.1:8000/kustomize
     ;;
   *)
-    URL=https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize/v${KUSTOMIZE_VERSION}/kustomize_kustomize.v${KUSTOMIZE_VERSION}_linux_amd64
+    URL=http://172.17.0.1:8000/kustomize
     ;;
 esac
 
